@@ -1,0 +1,14 @@
+// please write me a simple tsconfig.json
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "target": "ES6",
+        "sourceMap": true,
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "compileOnSave": true
+}

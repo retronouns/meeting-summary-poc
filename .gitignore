@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Visual Studio Code settings
+.vscode/
+
+# Compiled TypeScript output
+dist/
+
+# Dependency directories
+node_modules/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Prettier
+.prettiercache
+
+# Environment variables
+*.env
