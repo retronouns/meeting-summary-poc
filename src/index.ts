@@ -33,12 +33,19 @@ const summarize = async (input: string): Promise<any> => {
             messages: [
                 {
                     role: 'system',
-                    content: `Here is a meeting transcript: "${input}"`,
+                    content: `You are a helpful assistant for a company.`,
+                },
+                {
+                    role: 'system',
+                    content: `User messages will be the transcript of a meeting.`,
+                },
+                {
+                    role: 'system',
+                    content: `Please respond to user messages with a brief summary of the meeting transcript.`,
                 },
                 {
                     role: 'user',
-                    content:
-                        'Summarize the meeting transcript as bullet points sorted by descending importance.',
+                    content: input,
                 },
             ],
         },
@@ -60,11 +67,31 @@ const actionItems = async (input: string): Promise<any> => {
             messages: [
                 {
                     role: 'system',
-                    content: `Here is a meeting transcript: "${input}"`,
+                    content: `You are a helpful assistant for a company.`,
+                },
+                {
+                    role: 'system',
+                    content: `User messages will be the transcript of a meeting.`,
+                },
+                {
+                    role: 'system',
+                    content: `Please respond to meeting transcripts with a bulleted list of suggested tasks or action items that may need to be created as a result of the meeting.`,
+                },
+                {
+                    role: 'system',
+                    content: `Do not include a header.`,
+                },
+                {
+                    role: 'system',
+                    content: `Subtasks should be nested under tasks.`,
+                },
+                {
+                    role: 'system',
+                    content: `Tasks should include any details discussed that are important to the task.`,
                 },
                 {
                     role: 'user',
-                    content: `Please list any action items, loose ends, or tasks discussed in the transcript that need to be completed by the participants or their coworkers.`,
+                    content: input,
                 },
             ],
         },

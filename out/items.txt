@@ -1,0 +1,8 @@
+- Create a task for Anderson to draw seven red lines, two with red ink, two with green ink and the rest with transparent.
+    - Clarify with the client if they are okay with the majority of the lines being transparent and not visible.
+    - Discuss with the client the option of using different colours instead of green, since colour-blind people may not be able to differentiate between red and green.
+- Create a task to clarify design requirements with the client:
+    - Ask the client about the purpose of the red lines so that the design can be optimized to suit the intended audience. 
+    - Ask about preferred dimensions and thickness of the lines.
+    - Ask if there are any design elements (such as animals) that the client would like included in the design.
+- Create a travel task for Anderson to inflate the red balloon, if necessary.
